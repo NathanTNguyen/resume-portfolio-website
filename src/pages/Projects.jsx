@@ -35,7 +35,7 @@ const Projects = () => {
               title="Resume Website"
               description="The website you are currently on! This site is made using React.js to provide a comprehensive showcase of my skills, projects, and a bit about my personal background."
               ghLink="https://github.com/NathanTNguyen/resume-portfolio-website"
-              demoLink="https://www.youtube.com/watch?v=CKmX_XqqAU4/"
+              demoLink="https://nathannguyen-dev.netlify.app/"
             />
           </Col>
 
