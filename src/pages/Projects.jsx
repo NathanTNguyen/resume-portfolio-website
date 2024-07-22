@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import projectIMG from "../assets/projects/project.jpeg";
+import websiteIMG from "../assets/projects/website.PNG";
 
 const Projects = () => {
   return (
@@ -29,11 +30,11 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/NathanTNguyen/DefoldGameProject/main/screenshots/1.PNG"
+              imgPath={websiteIMG}
               isBlog={false}
               title="Resume Website"
               description="The website you are currently on! This site is made using React.js to provide a comprehensive showcase of my skills, projects, and a bit about my personal background."
-              ghLink="https://github.com/NathanTNguyen/DefoldGameProject"
+              ghLink="https://github.com/NathanTNguyen/resume-portfolio-website"
               demoLink="https://www.youtube.com/watch?v=CKmX_XqqAU4/"
             />
           </Col>
