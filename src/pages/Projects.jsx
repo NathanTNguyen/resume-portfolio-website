@@ -14,7 +14,7 @@ const Projects = () => {
           My <strong className="yellow">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are some projects I've made and worked on.
+          Here are some projects I've made or am working on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -33,7 +33,7 @@ const Projects = () => {
               imgPath={websiteIMG}
               isBlog={false}
               title="Resume Website"
-              description="The website you are currently on! This site is made using React.js to provide a comprehensive showcase of my skills, projects, and a bit about my personal background."
+              description="The website you are currently on! This site was made using React to provide a comprehensive showcase of my skills, projects that I've completed or am working on, and a bit about my personal background."
               ghLink="https://github.com/NathanTNguyen/resume-portfolio-website"
               demoLink="https://nathannguyen-dev.netlify.app/"
             />
