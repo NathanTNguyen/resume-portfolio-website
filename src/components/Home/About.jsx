@@ -34,25 +34,21 @@ const About = () => {
               knowledge and skills.
               <br />
               <br />I am proficient in
-              <b className="yellow"> Java, </b>
+              <b className="yellow"> Java, Python, Lua </b>
               as well as having knowledge in programming languages such as
-              JavaScript, Python, C# and Lua.
+              JavaScript, TypeScript, C# and C++.
               <br />
-              <br />I have a passion for learning various technologies which has
-              led me to experimenting with{" "}
-              <b className="yellow">Defold, Vaadin</b> and
+              <br />I have a passion for exploring cutting-edge technologies, with a current focus on{" "}
+              <b className="yellow">NLP and AI</b>, I'm also enhancing my skills in popular JavaScript libraries and frameworks, including
               <i>
                 <b className="yellow">
                   {" "}
-                  other more common Javascript libraries and frameworks
+                  React
                 </b>
               </i>
-              &nbsp; such as
-              <i>
-                <b className="yellow"> React.js</b>
-              </i>
+              &nbsp;, and continously seeking to expand my skill set.
               <br />
-              <br />I am also interested in building new
+              <br />I'm also interested in building new
               <i>
                 <b className="yellow"> Web Technologies and Products, </b>
                 as well as exploring areas related to
