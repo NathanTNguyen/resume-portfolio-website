@@ -28,8 +28,8 @@ const About = () => {
               <span className="yellow">University of Technology, Sydney</span>.
               <br />
               <br />
-              As an
-              <b className="yellow"> aspiring </b> software developer, I enjoy
+              As a
+              <b className="yellow"> software engineer</b>, I enjoy
               taking on new challenges and aim to continuously expand upon my
               knowledge and skills.
               <br />
@@ -39,21 +39,7 @@ const About = () => {
               JavaScript, TypeScript, C# and C++.
               <br />
               <br />I have a passion for exploring cutting-edge technologies, with a current focus on{" "}
-              <b className="yellow">NLP and AI</b>, I'm also enhancing my skills in popular JavaScript libraries and frameworks, including
-              <i>
-                <b className="yellow">
-                  {" "}
-                  React
-                </b>
-              </i>
-              &nbsp;, and continously seeking to expand my skill set.
-              <br />
-              <br />I'm also interested in building new
-              <i>
-                <b className="yellow"> Web Technologies and Products, </b>
-                as well as exploring areas related to
-                <b className="yellow"> Artificial Intelligence.</b>
-              </i>
+              <b className="yellow">NLP and AI</b>, I'm currently working on SearchForDev.com which is a website that leverages NLP and AI to help new developers find truly entry-level software engineering roles.
               <br />
             </p>
           </Col>

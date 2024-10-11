@@ -11,7 +11,7 @@ const Footer = () => {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <span>Dedicated to making a start in my professional career!</span>
+        <span>Driven by innovation and a passion for creating impactful software solutions</span>
         </Col>
         <Col md="4" className="footer-copywright">
           <span>Copyright © {year}</span>
