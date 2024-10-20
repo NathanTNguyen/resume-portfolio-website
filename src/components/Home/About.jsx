@@ -39,7 +39,7 @@ const About = () => {
               JavaScript, TypeScript, C# and C++.
               <br />
               <br />I have a passion for exploring cutting-edge technologies, with a current focus on{" "}
-              <b className="yellow">NLP and AI</b>, I'm currently working on SearchForDev.com which is a website that leverages NLP and AI to help new developers find truly entry-level software engineering roles.
+              <b className="yellow">NLP and AI</b>, I'm currently working on <b className="yellow">SearchForDev.com</b> which is a website that leverages NLP and AI to help new developers find truly entry-level software engineering roles.
               <br />
             </p>
           </Col>

@@ -4,6 +4,7 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import projectIMG from "../assets/projects/project.jpeg";
 import websiteIMG from "../assets/projects/website.PNG";
+import searchfordevIMG from "../assets/projects/searchfordev.PNG";
 
 const Projects = () => {
   return (
@@ -19,12 +20,11 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/NathanTNguyen/DefoldGameProject/main/screenshots/1.PNG"
+              imgPath={searchfordevIMG}
               isBlog={false}
-              title="Defold Game Project"
-              description="This project is a game built utilising the Defold game engine using Lua. The game is a simple 'The Binding of Isaac' inspired game where the player must navigate through the level, defeating enemies and collecting coins."
-              ghLink="https://github.com/NathanTNguyen/DefoldGameProject"
-              demoLink="https://www.youtube.com/watch?v=CKmX_XqqAU4/"
+              title="SearchForDev.com"
+              description="A full stack job board website that aggregates direct job listings from company career pages and ATS providers. Leveraging NLP via the OpenAI API to filter and classify job listings in software development/engineering."
+              demoLink="https://searchfordev.com/"
             />
           </Col>
 
@@ -36,6 +36,17 @@ const Projects = () => {
               description="The website you are currently on! This site was made using React to provide a comprehensive showcase of my skills, projects that I've completed or am working on, and a bit about my personal background."
               ghLink="https://github.com/NathanTNguyen/resume-portfolio-website"
               demoLink="https://nathannguyen-dev.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/NathanTNguyen/DefoldGameProject/main/screenshots/1.PNG"
+              isBlog={false}
+              title="Defold Game Project"
+              description="This project is a game built utilising the Defold game engine using Lua. The game is a simple 'The Binding of Isaac' inspired game where the player must navigate through the level, defeating enemies and collecting coins."
+              ghLink="https://github.com/NathanTNguyen/DefoldGameProject"
+              demoLink="https://www.youtube.com/watch?v=CKmX_XqqAU4/"
             />
           </Col>
 
